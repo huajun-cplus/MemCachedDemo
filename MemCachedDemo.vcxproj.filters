@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\common">
+      <UniqueIdentifier>{8a1f0377-ddae-4c1b-80c0-ff6b82d4cf22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common\memcached">
+      <UniqueIdentifier>{732e40f4-ffee-4a44-817a-009fc10e111e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MemCachedDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\3rd\MemCacheClient\include\Matilda.h">
+      <Filter>源文件\common\memcached</Filter>
+    </ClInclude>
+    <ClInclude Include="common\3rd\MemCacheClient\include\MemCacheClient.h">
+      <Filter>源文件\common\memcached</Filter>
+    </ClInclude>
+    <ClInclude Include="common\3rd\MemCacheClient\include\ReadWriteBuffer.h">
+      <Filter>源文件\common\memcached</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
